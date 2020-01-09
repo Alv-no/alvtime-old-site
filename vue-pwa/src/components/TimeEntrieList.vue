@@ -27,8 +27,8 @@ export default {
         },
         {
           activity: 2,
-          customer: "UD",
-          activityName: "Visualisering",
+          customer: "UDI",
+          activityName: "Visualisering er veldig bra for alle sin produktivitet",
           activityDesc: "Do Crap",
           registeredHours: 0
         },

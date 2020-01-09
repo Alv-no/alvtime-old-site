@@ -1,10 +1,10 @@
 <template>
   <div class="grid">
     <div class="text">
-      <p class="customerText">{{ timeEntrie.customer }}</p>
-      <p class="activityNameText">{{ timeEntrie.activityName }}</p>
+      <p class="customer_text">{{ timeEntrie.customer }}</p>
+      <p class="activity_name_text">{{ timeEntrie.activityName }}</p>
     </div>
-    <input type="number" />
+    <form novalidate><input class="input" type="number" novalidate /></form>
   </div>
 </template>
 
@@ -14,7 +14,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .grid {
   display: grid;
   grid-template-columns: 1fr auto;
@@ -29,14 +29,26 @@ export default {
 
 .input {
   appearance: none;
-  margin: 0;
+  -moz-appearance: textfield;
+  width: 1.5rem;
+  height: 1rem;
+  padding: 5px;
 }
 
 .text {
   line-height: 0.3rem;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: 1rem;
 }
 
 .customer_text {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
+}
+
+.activity_name_text {
+  font-size: 1rem;
 }
 </style>
