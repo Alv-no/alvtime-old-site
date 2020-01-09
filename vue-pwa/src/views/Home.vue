@@ -1,15 +1,15 @@
 <template>
-  <VirtualSwiper />
+  <Swiper />
 </template>
 
 <script>
 // @ is an alias to /src
-import VirtualSwiper from "@/components/VirtualSwiper.vue";
+import Swiper from "@/components/Swiper.vue";
 
 export default {
   name: "home",
   components: {
-    VirtualSwiper
+    Swiper
   }
 };
 </script>
