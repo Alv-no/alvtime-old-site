@@ -1,3 +1,3 @@
 # Alvtime
 
-Visit the alvtime website at [https://Alv-no.github.io/alvtime/](https://Alv-no.github.io/alvtime/)
+Visit the alvtime website at [https://alvfan.github.io/alvtime/](https://alvfan.github.io/alvtime/)
