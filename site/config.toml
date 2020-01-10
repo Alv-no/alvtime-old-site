@@ -1,5 +1,5 @@
 title = "Alvtime"
-baseURL                          = "https://alvfan.github.io/alvtime/"  # Your domain name. Must end with "/"
+baseURL                          = "https://Alv-no.github.io/alvtime/"  # Your domain name. Must end with "/"
 theme                            = "introduction"
 DefaultContentLanguage           = "no"                    # Default language for multilingual sites
 # disqusshortname                 = ""                       # https://gohugo.io/content-management/comments
