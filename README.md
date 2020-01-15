@@ -4,7 +4,7 @@ Visit the alvtime website at [https://Alv-no.github.io/alvtime/](https://Alv-no.
 
 ## Add and edit content
 
-Add and edit content by adding and editing files in the content folder. See existing files for examples or go to the selected themes page [hugo-theme-introduction](https://github.com/victoriadrake/hugo-theme-introduction) for detaild instructions.
+Add and edit content by adding and editing files in the content folder. See existing files for examples or go to the selected themes page [hugo-theme-introduction](https://github.com/victoriadrake/hugo-theme-introduction) for detailed instructions.
 
 ## Development
 
