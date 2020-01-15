@@ -8,17 +8,12 @@ Add and edit content by adding and editing files in the content folder. See exis
 
 ## Development
 
-Clone this repository and run the following command to build the docker image:
+Clone this repository and run the following command to build and run the docker image:
 
 ```
-docker build -t alvtime-site .
+docker-compose up
 ```
 
-Then run the following to start a local development server.
-
-```
-docker run -it --rm -p 1313:1313 -v $PWD/site:/usr/share/blog alvtime-site
-```
 
 Open `localhost:1313` in a webpage and change a file in the content directory. The site will be rebuilt and the changes will be reflected in the browser.
 
