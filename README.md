@@ -8,10 +8,10 @@ Add and edit content by adding and editing files in the content folder. See exis
 
 ## Development
 
-Clone this repository and run the following command to build and run the docker image:
+Clone this repository and run the following command to build and run the development server in the docker container:
 
 ```
-docker-compose up
+docker build -t alvtime-site . && docker run -it --rm -v $PWD/site:/usr/share/blog alvtime-site
 ```
 
 
