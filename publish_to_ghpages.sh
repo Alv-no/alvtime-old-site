@@ -19,7 +19,7 @@ echo "Removing existing files"
 rm -rf site/public/*
 
 echo "Generating site"
-docker run -it --rm -v $PWD/site:/usr/share/blog alvtime-site hugo
+docker build -t alvtime-site . && docker run -it --rm -v $PWD/site:/usr/share/blog alvtime-site hugo
 
 echo "Updating gh-pages branch"
 cd site/public && git add --all && git commit -m "Publishing to gh-pages (publish_to_ghpages.sh)"
