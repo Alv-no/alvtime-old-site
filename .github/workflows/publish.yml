@@ -15,4 +15,24 @@ jobs:
         run: |
           git config --global user.name "Truls Aagaard"
           git config --global user.email "truls@aagaard.io"
-          ./publish_to_ghpages.sh
+          
+          echo "Deleting old publication"
+          rm -rf site/public
+          mkdir site/public
+          git worktree prune
+          rm -rf .git/worktrees/public/
+          
+          echo "Checking out gh-pages branch into public"
+          git worktree add -B gh-pages site/public origin/gh-pages
+          
+          echo "Removing existing files"
+          rm -rf site/public/*
+          
+          echo "Generating site"
+          docker build -t alvtime-site . && docker run -it --rm -v $PWD/site:/usr/share/blog alvtime-site hugo
+          
+          echo "Updating gh-pages branch"
+          cd site/public && git add --all && git commit -m "Publishing to gh-pages (publish_to_ghpages.sh)"
+          
+          echo "Pushing to github"
+          git push --all
