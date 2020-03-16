@@ -1,0 +1,19 @@
+name: Publish
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: publish
+        run: |
+          git config --global user.name "Truls Aagaard"
+          git config --global user.email "truls@aagaard.io"
+          ./publish_to_ghpages.sh
