@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alvtime</title>
+    <link>https://Alv-no.github.io/alvtime/</link>
+    <description>Recent content on Alvtime</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 10 Jan 2020 12:28:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://Alv-no.github.io/alvtime/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Økonomi api</title>
+      <link>https://Alv-no.github.io/alvtime/projects/alvtime-kotlin/</link>
+      <pubDate>Fri, 10 Jan 2020 12:28:00 +0000</pubDate>
+      
+      <guid>https://Alv-no.github.io/alvtime/projects/alvtime-kotlin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Timerføringssystem api</title>
+      <link>https://Alv-no.github.io/alvtime/projects/alvtime-dotnet/</link>
+      <pubDate>Fri, 10 Jan 2020 12:27:53 +0000</pubDate>
+      
+      <guid>https://Alv-no.github.io/alvtime/projects/alvtime-dotnet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Administrasjons Panel</title>
+      <link>https://Alv-no.github.io/alvtime/projects/alvtime-react-pwa/</link>
+      <pubDate>Fri, 10 Jan 2020 12:07:00 +0000</pubDate>
+      
+      <guid>https://Alv-no.github.io/alvtime/projects/alvtime-react-pwa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Timerførings PWA</title>
+      <link>https://Alv-no.github.io/alvtime/projects/alvtime-vue-pwa/</link>
+      <pubDate>Fri, 10 Jan 2020 11:53:25 +0000</pubDate>
+      
+      <guid>https://Alv-no.github.io/alvtime/projects/alvtime-vue-pwa/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

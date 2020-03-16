@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://Alv-no.github.io/alvtime/</loc>
+    <lastmod>2020-01-10T12:28:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Alv-no.github.io/alvtime/projects/alvtime-kotlin/</loc>
+    <lastmod>2020-01-10T12:28:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Alv-no.github.io/alvtime/projects/alvtime-dotnet/</loc>
+    <lastmod>2020-01-10T12:27:53+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Alv-no.github.io/alvtime/projects/alvtime-react-pwa/</loc>
+    <lastmod>2020-01-10T12:07:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Alv-no.github.io/alvtime/projects/alvtime-vue-pwa/</loc>
+    <lastmod>2020-01-10T11:53:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Alv-no.github.io/alvtime/projects/</loc>
+    <lastmod>2020-01-10T11:52:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Alv-no.github.io/alvtime/tags/</loc>
+  </url>
+  
+</urlset>
