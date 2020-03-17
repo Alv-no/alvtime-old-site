@@ -3,4 +3,4 @@ title: "Alvtime"
 headless: true
 ---
 
-Ett timeføringssystem som gjør at alle fører timene sine. 
+Ett timeføringssystem som gjør at konsulenter fører timene sine. 
