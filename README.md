@@ -11,7 +11,6 @@ Add and edit content by adding and editing files in the content folder. See exis
 Clone this repository and run the following command to build and run the development server in the docker container:
 
 ```
-git clone https://github.com/victoriadrake/hugo-theme-introduction.git site/themes/introduction
 docker build -t alvtime-site . && docker run -it --rm -p 1313:1313 -v $PWD/site:/usr/share/blog alvtime-site
 ```
 
