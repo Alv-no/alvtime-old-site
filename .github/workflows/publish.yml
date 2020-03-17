@@ -15,8 +15,8 @@ jobs:
           git fetch --no-tags --prune --depth=1 origin +refs/heads/*:refs/remotes/origin/*
       - name: publish
         run: |
-          git config --global user.name "Truls Aagaard"
-          git config --global user.email "truls@aagaard.io"
+          git config --global user.name "$(git log -1 --pretty=format:'%an')"
+          git config --global user.email "$(git log -1 --pretty=format:'%ae')"
 
           echo "Deleting old publication"
           rm -rf site/public
