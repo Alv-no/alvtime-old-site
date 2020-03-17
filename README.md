@@ -19,4 +19,4 @@ Open `localhost:1313` in a webpage and change a file in the content directory. T
 
 ## Publish
 
-To publish the webpage run the `publish_to_ghpages.sh` script.
+To publish open up a pull request to the master branch. When the changes are merged to master the page will be published by the publish action.
