@@ -1,6 +1,6 @@
 title = "Alvtime"
 baseURL                          = "https://Alv-no.github.io/alvtime/"  # Your domain name. Must end with "/"
-theme                            = "introduction"
+theme                            = "intro"
 DefaultContentLanguage           = "no"                    # Default language for multilingual sites
 # disqusshortname                 = ""                       # https://gohugo.io/content-management/comments
 # googleAnalytics                 = ""                       # https://gohugo.io/templates/internal/#google-analytics
